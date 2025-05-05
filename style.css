@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    color: #303030;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu .menu-icono {
+    width: 30px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.bg {
+    position: absolute;
+    width: 700px;
+    z-index: -1;
+    right: 0;
+}
+
+.esp {
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    width: 350px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header-txt {
+    color: #303030;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.header-txt h1 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.header-txt p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #5454;
+    margin-bottom: 35px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5445;
+    border-radius: 10px;
+    color: #303030;
+    transition-property: padding, color, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-1:hover {
+    padding: 10px 30px;
+    background-color: #303030;
+    color: #fff;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.header-img img {
+    width: 650px;
+}
